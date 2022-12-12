@@ -1,0 +1,3 @@
+,log_dir,frame_per_second,episode_reward,total_steps,total_episodes,total_time,target_q,actor_loss,critic_loss,success_rate
+0,MetaDrive-td3combine-expt1,154,13.49501298465427,2001,2,12.942901611328125,,,,0.0
+1,MetaDrive-td3combine-expt1,164,13.320912736325376,3002,3,18.237919092178345,,,,0.0

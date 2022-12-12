@@ -1,0 +1,4 @@
+python train_td3.py --log-dir MetaDrive-test-noise-reduction-td3 --batch_size 64 --expl_noise 0.2 --max-steps 500000 --start-steps 5000 --env-id MetaDrive-Gen-v0 --policy_noise 0.3
+python train_td3.py --log-dir MetaDrive-test-noise2-reduction-td3 --batch_size 64 --expl_noise 0.2 --max-steps 500000 --start-steps 10000 --env-id MetaDrive-Gen-v0 --policy_noise 0.3
+python train_td3_with_nr.py --log-dir MetaDrive-test-no-noise-td3 --batch_size 64 --expl_noise 0.2 --max-steps 500000 --start-steps 5000 --env-id MetaDrive-Gen-v0
+python train_td3_with_nr.py --log-dir MetaDrive-test-no-noise2-td3 --batch_size 64 --expl_noise 0.2 --max-steps 500000 --start-steps 10000 --env-id MetaDrive-Gen-v0
